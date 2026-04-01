@@ -1,3 +1,4 @@
+CREDITS:
 Character art from Animal Pack https://lunarmoonstudios.itch.io/animal-pack
 by moneyfunny https://www.deviantart.com/moneyfunny
 
