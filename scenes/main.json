@@ -1,0 +1,608 @@
+{
+  "40": {
+    "sprite": {
+      "text": "Alpaca One"
+    },
+    "properties": {
+      "properties": {
+        "x": 0.45,
+        "scaleX": 100.0,
+        "scaleY": 100.0,
+        "y": 1.0
+      }
+    },
+    "expression": {
+      "text": "neutral"
+    },
+    "next": {
+      "next": 41
+    },
+    "type": {
+      "text": "show character"
+    }
+  },
+  "56": {
+    "text": {
+      "dialogue": [
+        "У цих горах проживає дивна істота",
+        "Напівлюдина",
+        "Напівбог"
+      ]
+    },
+    "type": {
+      "text": "dialogue"
+    },
+    "next": {
+      "next": 57
+    },
+    "speaker": {
+      "text": ""
+    }
+  },
+  "17": {
+    "next": {
+      "next": 18
+    },
+    "speaker": {
+      "text": ""
+    },
+    "text": {
+      "dialogue": [
+        "Ви прокидаєтеся у печері",
+        "Територію освітлюють дивні створіння, що мешкають тут"
+      ]
+    },
+    "type": {
+      "text": "dialogue"
+    }
+  },
+  "16": {
+    "type": {
+      "text": "set background color"
+    },
+    "color": {
+      "rgb": [
+        0.0915237,
+        0.0915237,
+        0.0915237
+      ]
+    },
+    "next": {
+      "next": 17
+    }
+  },
+  "20": {
+    "next": {
+      "next": 23
+    },
+    "type": {
+      "text": "hide messagebox"
+    }
+  },
+  "30": {
+    "sprite": {
+      "text": "field"
+    },
+    "next": {
+      "next": 31
+    },
+    "type": {
+      "text": "set background"
+    }
+  },
+  "60": {
+    "next": {
+      "next": 61
+    },
+    "speaker": {
+      "text": "Людиноріг"
+    },
+    "text": {
+      "dialogue": [
+        "Вітаю на горі, підвладній мені, подорожувальнику"
+      ]
+    },
+    "type": {
+      "text": "dialogue"
+    }
+  },
+  "32": {
+    "type": {
+      "text": "wait"
+    },
+    "next": {
+      "next": 30
+    }
+  },
+  "46": {
+    "next": {
+      "next": 53
+    },
+    "type": {
+      "text": "hide character"
+    },
+    "sprite": {
+      "text": "Alpaca Two"
+    }
+  },
+  "29": {
+    "sprite": {
+      "text": "Monster"
+    },
+    "type": {
+      "text": "hide character"
+    },
+    "next": {
+      "next": 27
+    }
+  },
+  "50": {
+    "next": {
+      "next": null
+    },
+    "type": {
+      "text": "dialogue"
+    },
+    "speaker": {
+      "text": ""
+    },
+    "text": {
+      "dialogue": [
+        "Кінець"
+      ]
+    }
+  },
+  "22": {
+    "type": {
+      "text": "hide messagebox"
+    },
+    "next": {
+      "next": 32
+    }
+  },
+  "53": {
+    "type": {
+      "text": "set background color"
+    },
+    "color": {
+      "rgb": [
+        0.3535634,
+        0.24299449,
+        0.24299449
+      ]
+    },
+    "next": {
+      "next": 54
+    }
+  },
+  "0": {
+    "type": {
+      "text": "root"
+    },
+    "next": {
+      "next": 16
+    }
+  },
+  "44": {
+    "choices": {
+      "choice": [
+        "Піти до гір",
+        "Сісти й насолодитися небом"
+      ]
+    },
+    "destinations": {
+      "destination": [
+        45,
+        47
+      ]
+    },
+    "next": {
+      "next": null
+    },
+    "type": {
+      "text": "choice"
+    }
+  },
+  "47": {
+    "type": {
+      "text": "hide character"
+    },
+    "sprite": {
+      "text": "Alpaca One"
+    },
+    "next": {
+      "next": 48
+    }
+  },
+  "43": {
+    "next": {
+      "next": 44
+    },
+    "type": {
+      "text": "wait"
+    }
+  },
+  "25": {
+    "next": {
+      "next": 26
+    },
+    "type": {
+      "text": "wait"
+    }
+  },
+  "37": {
+    "sprite": {
+      "text": "Alpaca Two"
+    },
+    "next": {
+      "next": 38
+    },
+    "expression": {
+      "text": "Default"
+    },
+    "type": {
+      "text": "show character"
+    },
+    "properties": {
+      "properties": {
+        "scaleY": 100.0,
+        "y": 1.0,
+        "scaleX": 100.0,
+        "x": 0.77
+      }
+    }
+  },
+  "58": {
+    "type": {
+      "text": "wait"
+    },
+    "next": {
+      "next": 59
+    }
+  },
+  "28": {
+    "type": {
+      "text": "wait"
+    },
+    "next": {
+      "next": 29
+    }
+  },
+  "42": {
+    "next": {
+      "next": 43
+    },
+    "type": {
+      "text": "hide messagebox"
+    }
+  },
+  "65": {
+    "type": {
+      "text": "hide messagebox"
+    },
+    "next": {
+      "next": 62
+    }
+  },
+  "45": {
+    "sprite": {
+      "text": "Alpaca One"
+    },
+    "type": {
+      "text": "hide character"
+    },
+    "next": {
+      "next": 46
+    }
+  },
+  "57": {
+    "next": {
+      "next": 58
+    },
+    "expression": {
+      "text": "Default"
+    },
+    "properties": {
+      "properties": {
+        "scaleX": 100.0,
+        "y": 1.0,
+        "scaleY": 100.0,
+        "x": 0.5
+      }
+    },
+    "sprite": {
+      "text": "Unicorn"
+    },
+    "type": {
+      "text": "show character"
+    }
+  },
+  "41": {
+    "expression": {
+      "text": "neutral"
+    },
+    "sprite": {
+      "text": "Alpaca Two"
+    },
+    "next": {
+      "next": 42
+    },
+    "type": {
+      "text": "show character"
+    },
+    "properties": {
+      "properties": {
+        "scaleY": 100.0,
+        "x": 0.77,
+        "y": 1.0,
+        "scaleX": 100.0
+      }
+    }
+  },
+  "27": {
+    "speaker": {
+      "text": ""
+    },
+    "type": {
+      "text": "dialogue"
+    },
+    "text": {
+      "dialogue": [
+        "Ви повертаєтесь назад. Тепер залишається тільки вийти назовні"
+      ]
+    },
+    "next": {
+      "next": 22
+    }
+  },
+  "31": {
+    "text": {
+      "dialogue": [
+        "Поле населяються альпаки"
+      ]
+    },
+    "type": {
+      "text": "dialogue"
+    },
+    "next": {
+      "next": 36
+    },
+    "speaker": {
+      "text": ""
+    }
+  },
+  "55": {
+    "sprite": {
+      "text": "mountain"
+    },
+    "type": {
+      "text": "set background"
+    },
+    "next": {
+      "next": 56
+    }
+  },
+  "63": {
+    "color": {
+      "rgb": [
+        0.085492425,
+        0.085492425,
+        0.085492425
+      ]
+    },
+    "type": {
+      "text": "set background color"
+    },
+    "next": {
+      "next": 64
+    }
+  },
+  "59": {
+    "properties": {
+      "properties": {
+        "x": 0.5,
+        "y": 1.0,
+        "scaleX": 100.0,
+        "scaleY": 100.0
+      }
+    },
+    "next": {
+      "next": 60
+    },
+    "type": {
+      "text": "show character"
+    },
+    "expression": {
+      "text": "smile"
+    },
+    "sprite": {
+      "text": "Unicorn"
+    }
+  },
+  "54": {
+    "next": {
+      "next": 55
+    },
+    "type": {
+      "text": "wait"
+    }
+  },
+  "61": {
+    "type": {
+      "text": "wait"
+    },
+    "next": {
+      "next": 65
+    }
+  },
+  "62": {
+    "type": {
+      "text": "hide character"
+    },
+    "sprite": {
+      "text": "Unicorn"
+    },
+    "next": {
+      "next": 63
+    }
+  },
+  "19": {
+    "destinations": {
+      "destination": [
+        20,
+        22
+      ]
+    },
+    "choices": {
+      "choice": [
+        "Оглянути істот",
+        "Вийти назовні"
+      ]
+    },
+    "type": {
+      "text": "choice"
+    },
+    "next": {
+      "next": null
+    }
+  },
+  "39": {
+    "type": {
+      "text": "dialogue"
+    },
+    "text": {
+      "dialogue": [
+        "Через деякий час вони припиняють нервуватися"
+      ]
+    },
+    "speaker": {
+      "text": ""
+    },
+    "next": {
+      "next": 40
+    }
+  },
+  "18": {
+    "next": {
+      "next": 19
+    },
+    "sprite": {
+      "text": "cave"
+    },
+    "type": {
+      "text": "set background"
+    }
+  },
+  "26": {
+    "next": {
+      "next": 28
+    },
+    "expression": {
+      "text": "alter"
+    },
+    "sprite": {
+      "text": "Monster"
+    },
+    "type": {
+      "text": "show character"
+    },
+    "properties": {
+      "properties": {
+        "y": 0.76,
+        "scaleY": 100.0,
+        "scaleX": 100.0,
+        "x": 0.75
+      }
+    }
+  },
+  "38": {
+    "next": {
+      "next": 39
+    },
+    "type": {
+      "text": "wait"
+    }
+  },
+  "48": {
+    "type": {
+      "text": "hide character"
+    },
+    "next": {
+      "next": 49
+    },
+    "sprite": {
+      "text": "Alpaca Two"
+    }
+  },
+  "64": {
+    "speaker": {
+      "text": ""
+    },
+    "type": {
+      "text": "dialogue"
+    },
+    "next": {
+      "next": null
+    },
+    "text": {
+      "dialogue": [
+        "Кінець"
+      ]
+    }
+  },
+  "49": {
+    "next": {
+      "next": 50
+    },
+    "sprite": {
+      "text": "sky"
+    },
+    "type": {
+      "text": "set background"
+    }
+  },
+  "36": {
+    "expression": {
+      "text": "Default"
+    },
+    "type": {
+      "text": "show character"
+    },
+    "sprite": {
+      "text": "Alpaca One"
+    },
+    "properties": {
+      "properties": {
+        "x": 0.46,
+        "y": 1.0,
+        "scaleY": 100.0,
+        "scaleX": 100.0
+      }
+    },
+    "next": {
+      "next": 37
+    }
+  },
+  "23": {
+    "sprite": {
+      "text": "Monster"
+    },
+    "expression": {
+      "text": "Default"
+    },
+    "type": {
+      "text": "show character"
+    },
+    "next": {
+      "next": 25
+    },
+    "properties": {
+      "properties": {
+        "scaleX": 100.0,
+        "x": 0.23,
+        "scaleY": 100.0,
+        "y": 0.86
+      }
+    }
+  }
+}
